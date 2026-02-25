@@ -1,0 +1,1 @@
+image: file: .gitpod.Dockerfile tasks: - name: Setup Android SDK init: | yes | sdkmanager --licenses sdkmanager "platform-tools" "platforms;android-33" "build-tools;33.0.2"
